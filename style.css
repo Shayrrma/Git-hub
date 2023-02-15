@@ -1,0 +1,125 @@
+header,
+nav,
+main,
+footer {
+    display: block;
+    width: 1078px;
+}
+
+body {
+    color: #ffffff;
+    background-color: #ffffff;
+    margin: 0px;
+    text-align: center;
+    outline: 1px solid #000000;
+}
+
+div {
+    width: 1078px;
+    height: 100px;
+}
+
+main {
+    background-color: rgb(255, 255, 255);
+    color: black;
+    height: auto;
+    overflow: hidden;
+}
+
+#col-left {
+    background-color: #ffffff;
+    color: black;
+    width: 200px;
+    height: 253px;
+    float: left;
+    outline: 1px solid #000000;
+
+}
+
+#col-center {
+    height: auto;
+    outline: 1px solid #000000;
+
+}
+
+footer {
+    background-color: rgb(165, 155, 155);
+    clear: both;
+    outline: 1px solid #000000;
+    color: black;
+    height: 50px;
+    font-size: 1.2rem;
+}
+
+#container {
+    position: relative;
+    margin: auto;
+    width: 1078px;
+    height: auto;
+    overflow: hidden;
+    outline: 1px solid #000000;
+}
+
+#logo {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    width: 200px;
+    height: 40px;
+    border: 2px dotted #9da3a1;
+}
+
+header {
+    outline: solid 1px rgb(0, 0, 0);
+    background-color: rgb(167, 163, 157);
+    height: 60px;
+    position: relative;
+    color: black;
+    font-size: 1.2rem;
+}
+
+#logo img {
+    max-height: 40px;
+}
+
+nav {
+    outline: solid 1px rgb(0, 0, 0);
+    color: black;
+    height: 40px;
+
+}
+
+ul.top-menu,
+ul.top-menu li {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    
+}
+
+li {
+    display: block;
+    float: left;
+    width: 25%;
+    margin: 0 1%;
+    outline: solid 1px rgb(0, 0, 0);
+    
+}
+
+ul.top-menu li a {
+    display: block;
+    width: 100%;
+    background-color: #ffffff;
+    text-align: center;
+    line-height: 40px;
+    color: black;
+}
+
+ul.top-menu li a:hover {
+    background-color: #696d6a;
+}
+
+ul.top-menu li.active a {
+    font-weight: bold;
+    text-decoration:none
+}
